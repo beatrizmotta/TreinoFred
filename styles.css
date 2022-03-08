@@ -1,0 +1,56 @@
+html {
+    height: 100vh;
+}
+body {
+    height: 100%;
+    background-image: linear-gradient(50deg, blue, red);
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+}  
+h1 {
+    color: aliceblue;
+    font-size: 3.5em;
+}
+button {
+    font-size: 3em;
+    padding: 20px 15px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.treinoa, .treinob {
+    display: flex;
+    flex-direction: column;
+}
+
+.video {
+    align-self: center;
+}
+.main {
+    background-color: white;
+    width: 70vw;
+    font-size: 3em;
+    border-radius: 25px;
+    margin-top: 20px;
+    padding: 5px 50px;
+}
+
+.hidden {
+    display: none;
+}
+.progress {
+    font-size: 0.8em;
+    color: white;
+    font-weight: bold;
+}
+.notdone {
+    background-color: tomato;
+}
+.done {
+    background-color: rgb(60, 158, 60);
+    
+}
