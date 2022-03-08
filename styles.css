@@ -2,10 +2,10 @@ html {
     height: 100vh;
 }
 body {
-    height: 100%;
-    background-image: linear-gradient(50deg, blue, red);
-    background-repeat: no-repeat;
+    height: 100vh;
+    background-color: rgb(63, 85, 182);
     background-size: contain;
+    background-repeat: no-repeat;
     
     display: flex;
     flex-direction: column;
@@ -52,5 +52,36 @@ button {
 }
 .done {
     background-color: rgb(60, 158, 60);
+    
+}
+
+@media (max-width: 640px) {
+    h1 {
+        font-size: 1.5em;
+    }
+    button, .progress {
+        font-size: 1em;
+    }
+    .main {
+        font-size: 1.2em;
+        width: 65vw;
+    }
+
+}
+
+@media (min-width: 641px) and (max-width: 1007px) {
+    h1 {
+        font-size: 3em;
+    }
+    button {
+        font-size: 1.8em;
+    }
+    .main {
+        font-size: 1.9em;
+        width: 65vw;
+    }
+}
+
+@media (min-width: 1008px) {
     
 }
